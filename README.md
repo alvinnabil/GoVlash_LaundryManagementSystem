@@ -1,2 +1,77 @@
 # GoVlash_LaundryManagementSystem
-GoVlash Laundry is a Java-based desktop application designed to support laundry business operations. The system implements the MVC architecture and integrates with a MySQL database. It provides multi-role login functionality (Admin, Customer, Receptionist, Laundry Staff), enabling each type of user to access features according to their role.
+GoVlash Laundry is a Java-based desktop application designed to manage laundry business operations.
+The system implements MVC (Model–View–Controller) architecture and uses Java Swing for the user interface with MySQL as the database.
+
+
+# Features : 
+- Multi-role authentication:
+  - Admin
+  - Customer
+  - Receptionist
+  - Laundry Staff
+- Secure login and registration
+- Role-based dashboards
+- Laundry order management
+- Order status tracking
+- Database integration (MySQL)
+- Clean MVC architecture
+
+# Technologies Used
+- Java SE 11 / 17
+- Java Swing (GUI)
+- MySQL
+- Eclipse IDE
+- JDBC
+- Git & GitHub
+
+# Prerequisites
+Before running the application, make sure you have:
+- Java JDK 11 or later
+- MySQL Server
+- Eclipse IDE (recommended)
+- Git installed
+
+# How To Use
+- Clone The Repository
+  - Open Terminal or Git Bash and run : git clone https://github.com/your-username/your-repository-name.git
+  - Then move into the project directory : cd your-repository-name
+
+- Open Project in the Eclipse
+  - Open Eclipse IDE
+  - Go to : File -> Import -> Existing Project Into Workspace
+  - Select the cloned project folder
+  - Click Finish
+
+- Database Setup
+  - Create a new MySQL database : CREATE DATABASE govlash_laundry;
+  - Import the SQL file, Or manually create tables :
+      - users
+      - notifications
+      - transactions
+      - services
+  - Update database credentials in : src/database/DBConnection.java
+
+- Run the Application
+  - navigate to : src/main/Main.java
+  - Right-click on Main.java
+  - Run As -> Java Application
+  - The Login window will appear
+
+
+
+# Notes
+- This application uses Swing, not JavaFX.
+- VM arguments are not required.
+- Database connection is executed only during login to avoid UI freezing.
+
+# Author
+Alvin Nabil Thoriq
+
+*Software Engineering Student*
+
+BINUS University
+
+
+
+
+
