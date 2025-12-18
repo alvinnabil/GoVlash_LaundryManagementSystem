@@ -69,13 +69,13 @@ Before running the application, make sure you have:
 - For jafafx-sdk and mysql-connector-java you can find and download it on google or the other trusted platform such as github etc.
 
 # Author
-Alvin Nabil Thoriq
-* Portfolio: [https://vinndev.vercel.app](https://vinndev.vercel.app)
-* LinkedIn : [www.linkedin.com/in/alvin-nabil-8972792a7](www.linkedin.com/in/alvin-nabil-8972792a7)
+**Alvin Nabil Thoriq**
+Software Engineering Student At Binus University
 
-*Software Engineering Student*
+* GitHub: [alvinnabil](https://github.com/alvinnabil)
+* Portfolio: [vinndev.vercel.app](https://vinndev.vercel.app)
+* LinkedIn : [Alvin Nabil](www.linkedin.com/in/alvin-nabil-8972792a7)
 
-BINUS University
 
 
 
